@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+	<style type="text/css">
+		table{
+			border: 1px solid black;
+			border-collapse: collapse;
+
+		}
+		td{
+			padding: 10px;
+		}
+	</style>
+	
+</head>
+<body>
+	<div align="center">
+	<fieldset style="width: 800px">
+		<legend><b>IHUB_LOGIN_PAGE</b></legend>
+		<h2 align="center">Welcome to IHUB LOGIN</h2>
+		<form>
+
+		<table border="1px" align="center">
+			<tr>
+				<td>User Name:</td>
+				<td><input type="text" name="" required pattern="[A-Z]{3}[a-z]*[_]{1}[0-9]{4}" placeholder="User Name" title="Ex:RAhul_1234" ></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+
+				<td><input type="Password" name="" required placeholder="Password" title="Password must contain Capital letters and Numbers"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align="center">
+
+				<button >login</button></td>
+			</tr>
+		</table>
+	</form>
+	</fieldset>
+</div>
+
+</body>
+</html>
